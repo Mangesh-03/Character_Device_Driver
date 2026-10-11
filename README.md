@@ -38,7 +38,7 @@ A user-space application can open the device, write data to it, read the stored 
                  open / read / write
                         |
                         v
-              /dev/marvellous_driver
+              /dev/character_driver
                         |
                         v
                     Kernel Space
@@ -196,4 +196,3 @@ This project provided practical experience with the structure and lifecycle of a
 ## Author
 
 **Mangesh Bedre**
-
